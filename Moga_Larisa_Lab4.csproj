@@ -142,12 +142,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AutoLotModel\AutoLotModel.csproj">
-      <Project>{646c01fd-006e-460a-a5d6-09c6701f99cd}</Project>
-      <Name>AutoLotModel</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
