@@ -5,10 +5,10 @@ namespace AutoLotModel
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class AutoLotEntitesModel : DbContext
+    public partial class AutoLotEntitiesModel : DbContext
     {
-        public AutoLotEntitesModel()
-            : base("name=AutoLotEntitesModel")
+        public AutoLotEntitiesModel()
+            : base("name=AutoLotEntitiesModel")
         {
         }
 

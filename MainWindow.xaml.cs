@@ -1,5 +1,4 @@
-﻿using AutoLotModel;
-using System;
+﻿using System;
 using System.Data;
 using System.Data.Entity;
 using System.Collections.Generic;
